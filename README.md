@@ -48,7 +48,7 @@ Format: a JSON array (Python list) of dictionaries, one per sample:
 
 ---
 ##  LoRA Fine-tuning
-Teacher model LoRA fine-tuning is done **outside this repository** using [LLaMA-Factory].  
+Teacher model LoRA fine-tuning is done **outside this repository** using [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
 This code assumes you already have a LoRA-finetuned model checkpoint.
 High-level steps:
 1. **Prepare SFT data **  
