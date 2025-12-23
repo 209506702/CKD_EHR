@@ -9,8 +9,7 @@ To address these challenges, this study proposes the CKD-EHR (Clinical Knowledge
 ![Solid／Status／Star(1)(1)](https://github.com/user-attachments/assets/be67e7a1-0fcf-49bf-93c9-77c60798fcda)  This innovative solution not only greatly improves resource utilization efficiency but also significantly enhances the accuracy and timeliness of diagnosis, providing a practical technical approach for resource optimization in clinical settings.
 
 #  Frame
-
-![fig1](https://github.com/user-attachments/assets/7e8e3d6c-e687-477b-b1ff-dd1d99361634)
+<img width="1990" height="1129" alt="fig1" src="https://github.com/user-attachments/assets/dbe93221-7186-43ce-9645-1c684fe851a1" />
 
 #   Data Format
 All data files are in **JSONL** format (one JSON object per line).  
@@ -73,10 +72,12 @@ Project structure:
 .
 ├── data
 │   ├── name_train.json
-│   └── name_val.json
+│   ├── name_val.json
+│   ├── hands_name_train.json
+│   └── hands_name_val.json
 ├── lora
 │   ├── model
-│   │   ├── ...
+│   │   ├── ...  #  Place the LoRA-tuned model/adapter file here
 │   └── teacher_classification_head.pt
 ├── results
 ├── train_teacher_head.py
