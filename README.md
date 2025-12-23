@@ -12,7 +12,10 @@ To address these challenges, this study proposes the CKD-EHR (Clinical Knowledge
 <img width="1990" height="1129" alt="fig1" src="https://github.com/user-attachments/assets/dbe93221-7186-43ce-9645-1c684fe851a1" />
 
 #   Data Format
-All data files are in **JSONL** format (one JSON object per line).  
+All data files are in **JSONL** format (one JSON object per line). 
+All datasets used in this project are derived from the MIMIC-III clinical database.
+We provide a subset of the processed datasets used in our experiments.
+The complete data preprocessing pipeline is detailed in the paper.
 ### `name_train.json` / `name_val.json`
 Each line is a training sample:
 
